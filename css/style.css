@@ -58,3 +58,11 @@ p {
 div{
   display: float;
 }
+
+.code {
+  padding-left: 10px;
+  list-style-type: none;
+}
+.code:before {
+  content: "- ";
+}
